@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    height: 70vh;
+    background-image: linear-gradient(black, #1748687e, black), url('imagens/banner.png');
+    border-bottom: 1px solid #272727;
+}
+.banner-content {
+    width: 550px;
+    margin: 30px auto;
+    text-align: center;
+}
+.banner-content h1, #course-content h2{
+    padding: 10px;
+    font-size: 25px;
+    color: #2b7cb3;
+    text-transform: uppercase;
+}
+.banner-content button {
+    background-color: transparent;
+    border: 2px solid #2b7cb3;
+    color: #2b7cb3;
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content img {
+    background-color: #00000025;
+    width: 200px;
+    padding: 5%;
+    border-radius: 100%;
+}
+
+/* MAIN */
+main {
+    font-size: 12px;
+    text-align: center;
+}
+#course-content {
+    width: 800px;
+    margin: auto;
+    padding: 5%;
+    height: 50vh;
+}
+.module {
+    box-shadow: inset 5px 5px 15px black;
+    border: 1px solid #2b7cb3;
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    width: 500px;
+    margin: 15px auto;
+    padding: 10px;
+    text-align: center;
+}
+.module span {
+    color: #2b7cb3;
+    font-weight: 600;
+}
+#transform-world {
+    background-image: url('imagens/woman-code.png');
+    background-size: cover ;
+    background-attachment: fixed;
+    text-shadow: 2px 1px #2b7cb3;
+    text-transform: lowercase;
+    font-weight: 600;
+    height: 60vh;
+}
+#transform-world p{
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    width: 250px;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+#professional-challenges {
+    height: 80vh;
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+#professional-challenges h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2b7cb3;
+}
+footer {
+    height: 20vh;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #272727;
+}
+footer img {
+    margin: 15px;
+}
+footer a {
+    color: #2b7cb3 ;
+}
