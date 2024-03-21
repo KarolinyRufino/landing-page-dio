@@ -40,6 +40,10 @@ header {
     border-radius: 100%;
 }
 
+button:hover {
+    box-shadow: 0 2px 5px #95b1c23d;
+}
+
 /* MAIN */
 main {
     font-size: 12px;
